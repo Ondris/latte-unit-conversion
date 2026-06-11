@@ -1,0 +1,17 @@
+{
+    "name": "ondris/latte-unit-conversion",
+    "description": "Unit conversion filters for Latte",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "latte/latte": "^3.0",
+	"nette/di": "^3.0",
+        "nette/schema": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ondris\\LatteUnitConversion\\": "src/"
+        }
+    }
+}
