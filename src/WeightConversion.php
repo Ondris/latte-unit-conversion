@@ -46,7 +46,7 @@ final class WeightConversion
 	
 	public static function poundToGram(int|float $pounds, int $precision = 0): int|float
 	{
-	    return round($pounds * 28.3495, $precision);
+	    return round($pounds * 453.59237, $precision);
 	}
 
 	public static function poundToOunce(int|float $pounds, int $precision = 0): int|float
