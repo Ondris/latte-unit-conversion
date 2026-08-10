@@ -70,45 +70,29 @@ Converts grams to kilograms.
 {$weight|gramToKilo:3}
 ```
 
-### kiloToOunce
-### gramToPound
-### gramToOunce
-### poundToGram
-### poundToOunce
-### ounceToKilo
-### ounceToGram
-### ounceToPound
+### fahrenheitToCelsius
 
-### meterToKilo
-### meterToInch
-### meterToFoot
-### meterToYard
-### meterToMile
-### kiloToMeter
-### kiloToInch
-### kiloToFoot
-### kiloToYard
-### kiloToMile
-### inchToMeter
-### inchToKilo
-### inchToFoot
-### inchToYard
-### inchToMile
-### footToMeter
-### footToKilo
-### footToInch
-### footToYard
-### footToMile
-### yardToMeter
-### yardToKilo
-### yardToInch
-### yardToFoot
-### yardToMile
-### mileToMeter
-### mileToKilo
-### mileToInch
-### mileToFoot
-### mileToYard
+Converts fahrenheit to celsius
+
+```latte
+{$fahrenheit|fahrenheitToCelsius}
+```
+
+### celsiusToFahrenheit
+
+Converts celsius to fahrenheit
+
+```latte
+{$celsius|celsiusToFahrenheit}
+```
+
+### Other weight filters:
+
+kiloToOunce, gramToPound, gramToOunce, poundToGram, poundToOunce, ounceToKilo, ounceToGram, ounceToPound
+
+### Other distance filters:
+
+meterToKilo, meterToInch, meterToFoot, meterToYard, meterToMile, kiloToMeter, kiloToInch, kiloToFoot, kiloToYard, kiloToMile, inchToMeter, inchToKilo, inchToFoot, inchToYard, inchToMile, footToMeter, footToKilo, footToInch, footToYard, footToMile, yardToMeter, yardToKilo, yardToInch, yardToFoot, yardToMile, mileToMeter, mileToKilo, mileToInch, mileToFoot, mileToYard
 
 ## Examples
 
