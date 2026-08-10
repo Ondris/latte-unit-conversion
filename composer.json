@@ -13,5 +13,8 @@
         "psr-4": {
             "Ondris\\LatteUnitConversion\\": "src/"
         }
+    },
+    "require-dev": {
+        "nette/tester": "^2.6"
     }
 }
